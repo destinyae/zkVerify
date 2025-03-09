@@ -8,7 +8,7 @@ composed of
 - 2 Parachain collator with develop account (Alice and Bob)
 - 1 Parachain rpc node
 
-In order to generate this network we should do the follow steps:
+In order to generate this network we should do the following steps:
 
 - Generate the relay chain and parachain docker images
 - Generate validators credentials and secret files
@@ -178,7 +178,7 @@ options:
 ```
 
 If you used the value from this tutorial just run the script with the default value should
-work. If you changed something you should change the flags values accordantly.
+work. If you changed something you should change the flags values accordingly.
 
 ```sh
 mdamico@miklap:~/devel/zkVerify/new_network$ create_relay_compose.py 
